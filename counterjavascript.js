@@ -11,26 +11,30 @@ function incrementcount()
 {
   count++;
   counter.innerHTML=count;
-  if(count>'0')
+  if(counter.innerHTML>'0')
   {
-      counter.style.color= 'rgb(9, 227, 151)';
+      counter.style.color= 'rgb(9, 227, 151)'
   }
-  else if(count==='0')
+  else if(counter.innerHTML==='0')
   {
     counter.style.color= 'white';
   }
+  counter.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000,fill:'forwards'});
 
 }
 function decrementcount()
 {
   count--;
   counter.innerHTML=count;
-  if(count<'0')
+  if(counter.innerHTML<'0')
   {
-      counter.style.color= 'red';
+      counter.style.color= 'red'
   }
-  else if(count==='0'){
+  else if(counter.innerHTML===  '0')
+  {
     counter.style.color= 'white';
   }
+  counter.animate([{opacity:'0.2'},{opacity:'1.0'}],{duration:1000,fill:'forwards'});
+
   
 }
