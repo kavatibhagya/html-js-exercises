@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(download.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-transform: capitalize;
+
+}
+.counter-box{
+    flex: 0 0 80%;
+    text-align: center;
+    border: whitesmoke;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 10px 10px rgba(189, 44, 119,0.5);
+    font-size: 2rem;
+}
+.counter{
+    font-size: 5rem;
+}
+.btn{
+    background: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+    box-shadow: 5px 5px rgba(189, 44, 119,0.5);
+}
+.btn:hover{
+    background: rgb(9, 227, 151);
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: none;
+}
