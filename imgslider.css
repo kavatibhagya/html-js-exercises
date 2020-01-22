@@ -9,7 +9,7 @@ body{
 .images{
     min-height: 70vh;
     flex: 0 0 60%;
-    background: url(img1.jpeg)center/cover no-repeat;
+    background: url(img-1.jpeg)center/cover no-repeat;
     border-radius: 10px;
     position: relative;
     box-shadow:10px 10px rgba(0,0,0,0.4) ;
@@ -45,4 +45,6 @@ body{
 }
 .btn:hover{
     cursor: pointer;
+    background: lightgreen;
+    color: white;
 }
