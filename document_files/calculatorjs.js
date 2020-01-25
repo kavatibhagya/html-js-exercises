@@ -14,7 +14,7 @@ for( let i=0; i<btns.length; i++)
 }
 equalbtn.addEventListener('click',function()
 {
-    if(screen.value==="")   
+    if(screen.value==="")
     {
       alert("no value in the screen");
     }
